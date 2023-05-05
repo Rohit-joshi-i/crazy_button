@@ -6,7 +6,7 @@ Flutter widget to give wiggle animation to the button.
 1.  Add the latest version of package to your pubspec.yaml (and run `dart pub get`):
  ```sh
   dependencies:
-    crazy_button: ^1.0.0
+    crazy_button: ^1.0.1
 ```
 2.  Import the package and use it in your Flutter App.
  ```sh

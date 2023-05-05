@@ -3,6 +3,23 @@ import 'dart:math' as math;
 
 var _constantShake = const Duration(seconds: 3);
 
+///
+/// Button to give shake animation to the flutter widget
+/// Example :
+///   CrazyButton(
+///                 infiniteShake: true,
+///                 child: Container(
+///                     height: 60,
+///                     width: 100,
+///                     decoration: BoxDecoration(
+///                         color: Colors.greenAccent,
+///                         borderRadius: BorderRadius.circular(10)),
+///                     child: const Center(
+///                         child: Icon(
+///                       Icons.ac_unit,
+///                     ))),
+///               ),
+///
 class CrazyButton extends StatefulWidget {
   final Widget child;
   final Duration? duration;
@@ -113,6 +130,9 @@ class _CrazyButtonState extends State<CrazyButton>
     super.dispose();
   }
 
+  ///
+  /// Animated builder to build transformative UI
+  ///
   @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(
