@@ -1,6 +1,6 @@
 name: crazy_button
 description: Flutter widget to provide your widget a wiggle animation you can pass any widget to the Crazy Button and it will give it a shake animation
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Rohit-joshi-i/crazy_button
 
 environment:

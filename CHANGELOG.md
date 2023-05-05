@@ -1,4 +1,3 @@
-## 1.0.1
+## 1.0.2
 
-* Initial Release - 1.0.0
-* Improved Documentation - 1.0.1
+* Improved Assertions - 1.0.2

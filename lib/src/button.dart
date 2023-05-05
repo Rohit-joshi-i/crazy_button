@@ -31,9 +31,7 @@ class CrazyButton extends StatefulWidget {
       this.repetitions = 1,
       this.infiniteShake = false,
       Key? key})
-      : assert(repetitions == null || !infiniteShake,
-            'Cannot have both repetitions and infinite shake without values'),
-        super(key: key);
+      :super(key: key);
 
   @override
   State<CrazyButton> createState() => _CrazyButtonState();
