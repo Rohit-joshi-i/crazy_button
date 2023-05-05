@@ -31,7 +31,7 @@ class CrazyButton extends StatefulWidget {
       this.repetitions = 1,
       this.infiniteShake = false,
       Key? key})
-      :super(key: key);
+      : super(key: key);
 
   @override
   State<CrazyButton> createState() => _CrazyButtonState();
